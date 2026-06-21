@@ -264,7 +264,7 @@ with st.sidebar:
     st.markdown("### 💡 채점용 샘플 데이터가 필요하신가요?")
     
     np.random.seed(42)
-    sample_dates = pd.date_range(start="2026-06-01 00:00", periods=200, freq="H")
+    sample_dates = pd.date_range(start="2026-06-01 00:00", periods=200, freq="h")
     v1 = np.sin(np.linspace(0, 50, 200)) + np.random.normal(0, 0.2, 200)
     v2 = np.cos(np.linspace(0, 50, 200)) + np.random.normal(0, 0.2, 200)
     
